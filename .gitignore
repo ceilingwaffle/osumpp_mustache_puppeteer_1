@@ -1,0 +1,15 @@
+.idea/
+.vscode/
+node_modules/
+build/
+dist/
+tmp/
+temp/
+logs/
+coverage/
+.nyc_output/
+.env
+.DS_Store
+**/*.log
+bash.exe.stackdump
+.vsls.json
