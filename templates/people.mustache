@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style type="text/css">
+      {{> stylesheet}}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      {{#alive}} 
+        {{> person}}
+      {{/alive}} 
+      {{#eliminated}} 
+        {{> person}}
+      {{/eliminated}} 
+    </div>
+  </body>
+</html>

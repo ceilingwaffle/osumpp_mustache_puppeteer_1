@@ -13,3 +13,4 @@ coverage/
 **/*.log
 bash.exe.stackdump
 .vsls.json
+/output
